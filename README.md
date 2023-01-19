@@ -11,3 +11,5 @@
 #4 feat : AppConfig(구현체 생성) 를 생성 / 클라이언트가 구현체를 의존하지 않도록 수정
 
 #5 feat : AppConfig 스프링 빈 등록으로 전환하기
+
+#6 feat : 스프링 Bean 조회
