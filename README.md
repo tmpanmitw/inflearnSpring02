@@ -13,3 +13,5 @@
 #5 feat : AppConfig 스프링 빈 등록으로 전환하기
 
 #6 feat : 스프링 Bean 조회
+
+#7 feat : xml 스프링 빈 설정 추가
