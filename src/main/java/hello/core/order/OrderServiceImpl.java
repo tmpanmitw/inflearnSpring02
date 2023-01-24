@@ -20,6 +20,12 @@ public class OrderServiceImpl implements OrderService{
     // 따라서 추상클래스 의존 및 생성자를 만들어두고 구현체를 외부에서 생성하는 방법으로 의존성 주입!!!!
 
     private final MemberRepository memberRepository;
+
+    // 테스트 용도
+    public MemberRepository getMemberRepository(){
+        return memberRepository;
+    }
+
     private final DiscountPolicy discountPolicy;
 
     public OrderServiceImpl(MemberRepository memberRepository, DiscountPolicy discountPolicy){

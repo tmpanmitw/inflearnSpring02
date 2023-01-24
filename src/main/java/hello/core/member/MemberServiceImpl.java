@@ -9,6 +9,11 @@ public class MemberServiceImpl implements MemberService{
     // 2. 추상클래스 의존 및 생성자를 만들어두고 구현체를 외부에서 생성하는 방법
     private final MemberRepository memberRepository;
 
+    // 테스트 용도
+    public MemberRepository getMemberRepository(){
+        return memberRepository;
+    }
+
     public MemberServiceImpl(MemberRepository memberRepository){
         this.memberRepository = memberRepository;
     }
